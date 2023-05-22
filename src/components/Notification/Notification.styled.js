@@ -1,7 +1,9 @@
 import styled from '@emotion/styled';
 
 export const MessageNotification = styled.p`
-  font-size: 16px;
-  color: rgb(206, 138, 161);
+  font-weight: 200;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fa8072;
   text-align: center;
 `;

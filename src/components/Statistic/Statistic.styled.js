@@ -8,14 +8,18 @@ export const ListStatistic = styled.ul`
 
   margin: 0;
   padding: 20px;
+  width: 600px;
 
-  background-color: rgba(164, 178, 232, 0.721);
+  background-color: #6495ed;
+  border-radius: 45px;
+  box-shadow: 1rem 1rem 2rem rgba(38, 60, 125, 0.435),
+    -1rem -1rem 2rem rgb(38, 60, 125, 0.435);
 `;
 
 export const ItemStatistic = styled.li`
   margin-bottom: 5px;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 200;
-  color: #111111;
+  color: #ffffff;
   list-style-type: none;
 `;
